@@ -7,9 +7,9 @@
 #   Character.create(name: "Luke", movie: movies.first)
 
 posts = [
-    {title: "タイトル1", content: "コンテンツ1"},
-    {title: "タイトル2", content: "コンテンツ2"},
-    {title: "タイトル3", content: "コンテンツ3"},
+    ["タイトル1", "コンテンツ1"],
+    ["タイトル2", "コンテンツ2"],
+    ["タイトル3", "コンテンツ3"],
 ]
 
 posts.each do |title, content|
